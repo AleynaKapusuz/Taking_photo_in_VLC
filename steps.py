@@ -32,4 +32,4 @@ try:
 except Exception as e:
     print(f"Hata oluştu: {e}")
 
-# VLC'yi kapatmıyoruz, açık kalıyor!
+
