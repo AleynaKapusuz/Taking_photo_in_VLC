@@ -3,13 +3,16 @@
 This Python script launches VLC Media Player in Remote Control (RC) mode and automatically captures snapshots from an RTSP (Real-Time Streaming Protocol) stream at specified time intervals. The script starts VLC in a remotely controllable mode, sends commands via a telnet connection, and saves snapshots at regular intervals. This allows you to capture real-time images from an RTSP stream without any manual intervention and automatically save them to a specified directory.
 
 📌 Requirements
+
 VLC Media Player (must be installed)
 
 Python 3.x
 
 Telnetlib (included with Python)
 
+
 🚀 Usage
+
 Ensure that VLC is installed.
 
 Update the vlc_path variable with the installation path of VLC.
@@ -20,7 +23,10 @@ Specify the screenshot_path where the snapshots will be saved.
 
 The script captures a snapshot every 2 seconds. To stop it, press CTRL + C.
 
+
+
 🛠 To-Do List
+
 📌 Implement an automatic file naming system
 
 📌 Handle RTSP connection errors
